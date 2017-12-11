@@ -1,0 +1,16 @@
+{
+  "name": "mongo-chat-api",
+  "version": "1.0.0",
+  "description": "API for MongoChat",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mangodb": "^1.0.0",
+    "mongodb": "^3.0.0-rc0",
+    "socket.io": "^2.0.4"
+  }
+}

@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 35% auto 35%;
+  grid-auto-rows: minmax(5px, auto);
+}
+
+.title {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.name-input {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+div.boxed {
+  border: 1px solid black;
+  grid-column: 2;
+  grid-row: 5 / 77;
+  overflow-y: auto;
+}
+
+.message-form {
+  grid-column: 2;
+  grid-row: 78;
+}
+
+.message-input {
+  grid-column: 2;
+  grid-row: 78;
+  width: 100%;
+}
